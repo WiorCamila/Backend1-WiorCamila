@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "title": "Jordan Flight MVP",
+        "description": "Remera Jordan para Hombre",
+        "code": "abc",
+        "price": 100,
+        "status": true,
+        "stock": 10,
+        "category": "Remera",
+        "thumbnails": [
+            "https://nikearprod.vtexassets.com/arquivos/ids/723288-800-800?width=800&height=800&aspect=true"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Nike Air Max INTRLK Lite",
+        "description": "Zapatillas de Moda para Mujer",
+        "code": "qtr",
+        "price": 80,
+        "status": true,
+        "stock": 10,
+        "category": "Zapatillas",
+        "thumbnails": [
+            "https://nikearprod.vtexassets.com/arquivos/ids/982281-800-800?width=800&height=800&aspect=true"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Nike Zenvy Tie-Dye",
+        "description": "Short de Entrenamiento para Mujer",
+        "code": "bvc",
+        "price": 90,
+        "status": true,
+        "stock": 5,
+        "category": "Moda",
+        "thumbnails": [
+            "https://nikearprod.vtexassets.com/arquivos/ids/1111828-800-800?width=800&height=800&aspect=true"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Nike Pegasus 41 Blueprint",
+        "description": "Zapatillas de Running para Mujer",
+        "code": "byt",
+        "price": 90,
+        "status": true,
+        "stock": 5,
+        "category": "Zapatillas",
+        "thumbnails": [
+            "https://nikearprod.vtexassets.com/arquivos/ids/1111357-800-800?width=800&height=800&aspect=true"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "FC Barcelona 2022/23 alternativo Stadium",
+        "description": "Camiseta de Futbol para Hombre",
+        "code": "piop",
+        "price": 50,
+        "status": true,
+        "stock": 3,
+        "category": "Camiseta",
+        "thumbnails": [
+            "https://nikearprod.vtexassets.com/arquivos/ids/439275-800-800?width=800&height=800&aspect=true"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Nike Yoga Luxe",
+        "description": "Short de Entrenamiento para Mujer",
+        "code": "ert",
+        "price": 50,
+        "status": true,
+        "stock": 3,
+        "category": "Moda",
+        "thumbnails": [
+            "https://nikearprod.vtexassets.com/arquivos/ids/792709-800-800?width=800&height=800&aspect=true"
+        ]
+    }
+]
