@@ -76,5 +76,13 @@
         "thumbnails": [
             "https://nikearprod.vtexassets.com/arquivos/ids/792709-800-800?width=800&height=800&aspect=true"
         ]
+    },
+    {
+        "id": 7,
+        "title": "Prueba 1",
+        "description": "Prueba 2",
+        "price": 123,
+        "stock": 1,
+        "code": "qwe"
     }
 ]

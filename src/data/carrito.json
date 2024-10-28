@@ -1,7 +1,12 @@
 [
     {
         "id": 1,
-        "products": []
+        "products": [
+            {
+                "product": 2,
+                "quantity": 2
+            }
+        ]
     },
     {
         "id": 2,
@@ -18,5 +23,11 @@
     {
         "id": 5,
         "products": []
+    },
+    {
+        "id": 6,
+        "products": [
+            "nike jordan prueba 1"
+        ]
     }
 ]

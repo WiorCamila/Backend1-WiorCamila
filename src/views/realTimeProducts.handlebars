@@ -1,0 +1,22 @@
+
+<h1>Lista de Productos en Tiempo Real</h1>
+<a href="/">Home Page</a>
+
+    <!-- Formulario para crear un nuevo producto -->
+<form id="agregar-productos">
+    <input type="text" id="title" placeholder="Título" required>
+    <input type="text" id="description" placeholder="Descripción" required>
+    <input type="number" id="price" placeholder="Precio" required>
+    <input type="text" id="code" placeholder="Code" required>
+    <input type="number" id="stock" placeholder="Stock" required>
+    <button type="submit">Agregar Producto</button>
+</form>
+
+<ul id="listaProductos"></ul>
+<script src="/socket.io/socket.io.js"></script>
+<script>
+    const socket = io()
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/js/realTimeProducts.js"></script>
