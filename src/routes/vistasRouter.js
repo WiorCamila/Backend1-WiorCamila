@@ -11,14 +11,13 @@ router.get('/',(req,res)=>{
 
 router.get('/products', async (req, res) => {
     try {
-        const products = await ProductsManager.getProducts();
-        res.render('index', { products });
+        const products = await ProductsManager.getProducts()
+        res.render('index', { products })
     } catch (error) {
-        console.error('Error al cargar los productos:', error);
-        res.status(500).send('Error al cargar los productos');
+        console.error('Error al cargar los productos:', error)
+        res.status(500).send('Error al cargar los productos')
     }
 });
-
 
 router.get('/realtimeproducts', (req, res) => {
     

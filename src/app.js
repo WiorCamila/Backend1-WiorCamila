@@ -28,7 +28,7 @@ app.use('/api/carts', cartsRouter);
 
 
 const server=app.listen(PORT,()=>{
-    console.log(`Server escuchando en puerto ${PORT}`);
+    console.log(`Server escuchando en puerto ${PORT}`)
 });
 
 const io=new Server(server)
@@ -53,14 +53,14 @@ io.on("connection", async socket => {
     });
 
     socket.on("eliminarProducto", async productId => {
-        let productos = await ProductsManager.getProducts();
-        productos = productos.filter(p => p.id !== productId);
-        await ProductsManager.actualizadorDeProductos(productos);
+        let productos = await ProductsManager.getProducts()
+        productos = productos.filter(p => p.id !== productId)
+        await ProductsManager.actualizadorDeProductos(productos)
         io.emit("products", productos);
     });
 
     socket.on("disconnect", () => {
-        console.log("Cliente desconectado");
+        console.log("Cliente desconectado")
     });
 });
 

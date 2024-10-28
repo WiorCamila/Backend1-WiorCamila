@@ -35,7 +35,7 @@ export class ProductsManager{
 
     static async actualizadorDeProductos(productos = []) {
         if (!Array.isArray(productos)) {
-            throw new Error(`Error en método updateProducts - se esperaba un array`);
+            throw new Error(`Error en método actualizadorDeProductos - se esperaba un array`)
         }
 
         await this.#grabaArchivo(JSON.stringify(productos, null, 4));
